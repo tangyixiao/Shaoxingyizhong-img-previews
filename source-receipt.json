@@ -2,26 +2,52 @@
   "repo": "tangyixiao/Shaoxingyizhong-img-previews",
   "sourceBranch": "main",
   "sourceCommit": null,
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "灰绿玻璃底片台上的预览联系表：不同年份的现有预览图按真实宽高排成一张不等宽联系印样，左边固定“预览图”说明，右侧保留宽裕的取景空隙。事实边界：这是 previews 路径分片，不声称它是全站完整照片目录，也不把预览分辨率称为原图。",
+    "layout": "catalog",
+    "palette": {
+      "light": {
+        "bg": "#D8E6DF",
+        "surface": "#EDF3E9",
+        "ink": "#243F35",
+        "muted": "#50695d",
+        "accent": "#2d6e5e"
+      },
+      "dark": {
+        "bg": "#142820",
+        "surface": "#233C31",
+        "ink": "#E5F2E6",
+        "muted": "#9fc4ae",
+        "accent": "#83ceaf"
+      }
+    },
+    "threeConcept": "Three.js 制作低角度的灰绿灯台，三张半透明背衬照片分别置于不同取景窗，3D只发生在台面与相框；图片本体完整且不增加假胶片编号。",
+    "distinctiveInteraction": "滑动取景窗放大当前预览，信息栏明确区分本地展示尺寸与来源记录的原始尺寸，原始链接始终可点击；无压缩/高清修复的功能承诺。"
+  },
   "media": [
     {
       "src": "assets/media/photo-1.webp",
       "alt": "学生集体合影，来自绍兴一中公开图片归档",
-      "url": "https://github.com/tangyixiao/Shaoxingyizhong-img-previews/blob/main/UploadFiles/xwzx/2024/3/202403291058050871.cdn-preview.jpg"
+      "url": "https://github.com/tangyixiao/Shaoxingyizhong-img-previews/blob/main/UploadFiles/xwzx/2024/3/202403291058050871.cdn-preview.jpg",
+      "path": "UploadFiles/xwzx/2024/3/202403291058050871.cdn-preview.jpg"
     },
     {
       "src": "assets/media/photo-2.webp",
       "alt": "交流活动合影，来自绍兴一中公开图片归档",
-      "url": "https://github.com/tangyixiao/Shaoxingyizhong-img-previews/blob/main/UploadFiles/xwzx/2026/8/202608201626529728.cdn-preview.jpg"
+      "url": "https://github.com/tangyixiao/Shaoxingyizhong-img-previews/blob/main/UploadFiles/xwzx/2026/8/202608201626529728.cdn-preview.jpg",
+      "path": "UploadFiles/xwzx/2026/8/202608201626529728.cdn-preview.jpg"
     },
     {
       "src": "assets/media/photo-3.webp",
       "alt": "校园活动海报，来自绍兴一中公开图片归档",
-      "url": "https://github.com/tangyixiao/Shaoxingyizhong-img-previews/blob/main/UploadFiles/xwzx/2022/9/202209270935362743.cdn-preview.jpg"
+      "url": "https://github.com/tangyixiao/Shaoxingyizhong-img-previews/blob/main/UploadFiles/xwzx/2022/9/202209270935362743.cdn-preview.jpg",
+      "path": "UploadFiles/xwzx/2022/9/202209270935362743.cdn-preview.jpg"
     }
   ],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
